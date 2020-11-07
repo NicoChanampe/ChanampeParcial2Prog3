@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="computadoras:war">
+    <output-path>$PROJECT_DIR$/computadoras/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>computadoras</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="computadoras-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="computadoras:war exploded" />
+    </root>
+  </artifact>
+</component>
